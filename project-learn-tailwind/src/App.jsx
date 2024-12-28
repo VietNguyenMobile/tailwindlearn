@@ -49,6 +49,21 @@ export default function App() {
           </div>
         ))}
       </div>
+
+      <button className="inline-block py-5 px-10 m-5 text-white bg-blue-600 rounded-lg transition-all lg:hover:bg-blue-700 motion-safe:hover:scale-110">
+        Confirm
+      </button>
+
+      <div className="border border-red-50 group">
+        <button className="inline-block py-5 px-10 m-5 text-white bg-blue-600 rounded-lg transition-colors lg:group-hover:bg-red-500">
+          Confirm
+        </button>
+      </div>
+
+      <input
+        type="text"
+        className="border border-red-500 py-3 px-3 ml-6 outline-none rounded-xl focus:border-blue-500 transition-colors"
+      />
     </div>
   );
 }
