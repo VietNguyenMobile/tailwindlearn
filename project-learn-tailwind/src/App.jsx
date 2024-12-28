@@ -30,7 +30,7 @@ export default function App() {
         Keep calm & travel on
       </h2>
 
-      <div className="grid grid-cols-3 gap-x-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-7 md:gap-y-0 max-w-6xl mx-auto p-4">
         {cards.map((card) => (
           <div key={card.image}>
             <div className="h-96 mb-5">
