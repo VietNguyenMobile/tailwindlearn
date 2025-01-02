@@ -2,6 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid yellow;
+    border-right: 50px solid blue;
+    border-bottom: 100px solid red;
+  }
+}
+
+/* ct: custom*/
+.ct-top-menu-item {
+  @apply py-1 
+  hover:text-gray-800 
+  relative 
+  after:absolute 
+  after:bottom-0 
+  after:left-0 
+  after:bg-light-coffee 
+  after:h-0.5 
+  hover:after:w-full 
+  after:w-0 
+  after:transition-all 
+  after:duration-300 
+  after:ease-in-out;
+}
+
+.ct-icon {
+  @apply w-5 h-5 inline-block;
+}
+
+.ct-badge-circle {
+  @apply inline-block 
+  text-xs
+  text-center
+  rounded-full
+  px-1.5;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
