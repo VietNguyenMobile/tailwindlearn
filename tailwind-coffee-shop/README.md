@@ -1,8 +1,4 @@
-# React + Vite
+# Notion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Link Notion: https://www.notion.so/Tailwind-CSS-167afb9caf428074acdee381b52ea8a2
+- Link [Youtube Tutorial](https://www.youtube.com/playlist?list=PLP6tw4Zpj-RK9PxvjySFM7jc5aNn_RyLX)
