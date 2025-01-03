@@ -21,7 +21,7 @@ export default {
         fadeIn: "fadeIn .5s ease-in-out",
       },
       backgroundImage: {
-        "slider-bg": 'url("./img/slider-bg.jpeg")',
+        "slider-bg": 'url("./src/assets/images/slider-bg.jpeg")',
       },
     },
   },
