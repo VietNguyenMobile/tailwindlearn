@@ -20,7 +20,7 @@
   after:lg:absolute 
   after:lg:bottom-0 
   after:lg:left-0 
-  after:lg:bg-light-coffee 
+  after:lg:bg-coffee-200 
   after:h-0.5 
   hover:after:w-full 
   after:lg:w-0 
@@ -43,11 +43,11 @@
 
 .ct-top-menu-expanded {
   @apply absolute 
-  top-10 
+  top-10
   z-50 
   w-full 
   text-center 
-  bg-white
+  bg-red-200
   animate-slideDown;
 }
 
@@ -61,6 +61,21 @@
   py-4 px-8 text-[13px] 
   font-semibold cursor-pointer 
   hover:bg-opacity-95;
+}
+
+.sub-headline {
+  @apply flex justify-center items-center mb-24;
+}
+
+.sub-headline-deco-line {
+  @apply w-8 h-px bg-gray-200;
+}
+
+.sub-headline-label {
+  @apply uppercase mx-4 
+  tracking-widest 
+  text-center
+  text-gray-500 font-medium text-[12px];
 }
 
 /* :root {

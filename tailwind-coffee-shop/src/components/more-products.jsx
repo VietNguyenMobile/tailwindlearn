@@ -1,7 +1,9 @@
-const MoreProducts = () => {
+const MoreProducts = ({ title }) => {
   return (
-    <div className="more-products">
-      <h2>More Products</h2>
+    <div className="sub-headline">
+      <div className="sub-headline-deco-line"></div>
+      <div className="sub-headline-label">{title}</div>
+      <div className="sub-headline-deco-line"></div>
     </div>
   );
 };
