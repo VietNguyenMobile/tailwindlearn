@@ -17,16 +17,16 @@
   @apply py-1 
   hover:text-gray-800 
   relative 
-  after:absolute 
-  after:bottom-0 
-  after:left-0 
-  after:bg-light-coffee 
+  after:lg:absolute 
+  after:lg:bottom-0 
+  after:lg:left-0 
+  after:lg:bg-light-coffee 
   after:h-0.5 
   hover:after:w-full 
-  after:w-0 
-  after:transition-all 
-  after:duration-300 
-  after:ease-in-out;
+  after:lg:w-0 
+  after:lg:transition-all 
+  after:lg:duration-300 
+  after:lg:ease-in-out;
 }
 
 .ct-icon {
@@ -39,6 +39,20 @@
   text-center
   rounded-full
   px-1.5;
+}
+
+.ct-top-menu-expanded {
+  @apply absolute 
+  top-10 
+  z-50 
+  w-full 
+  text-center 
+  bg-white
+  animate-slideDown;
+}
+
+.ct-top-menu-active {
+  @apply text-gray-800;
 }
 
 /* :root {
