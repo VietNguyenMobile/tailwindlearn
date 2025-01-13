@@ -58,9 +58,9 @@
 .ct-button {
   @apply text-center 
   uppercase tracking-wider 
-  py-4 px-8 text-[13px] 
+  py-4 px-8 text-sm 
   font-semibold cursor-pointer 
-  hover:bg-opacity-95;
+  hover:bg-opacity-90;
 }
 
 .sub-headline {
@@ -75,7 +75,16 @@
   @apply uppercase mx-4 
   tracking-widest 
   text-center
-  text-gray-500 font-medium text-[12px];
+  text-gray-500 font-medium text-xs;
+}
+
+.product-card-image {
+  @apply h-[400px] lg:h-[540px]
+  bg-cover bg-no-repeat  bg-center;
+}
+
+.product-card-title {
+  @apply text-center mt-8;
 }
 
 /* :root {
