@@ -27,7 +27,7 @@ const Main = () => {
       <Story />
       <FeaturedMugs title={data[0].title} />
       <MoreProducts title={data[1].title} />
-      <MoreProducts title={data[2].title} />
+      {/* <MoreProducts title={data[2].title} /> */}
       <CoffeeMagazine title={data[3].title} />
       <SubscribeUs />
     </main>

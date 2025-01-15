@@ -83,8 +83,13 @@
   bg-cover bg-no-repeat  bg-center;
 }
 
+.product-card-image-more {
+  @apply h-[380px]
+  bg-cover bg-no-repeat  bg-center;
+}
+
 .product-card-title {
-  @apply text-center mt-8;
+  @apply text-center my-8;
 }
 
 /* :root {
