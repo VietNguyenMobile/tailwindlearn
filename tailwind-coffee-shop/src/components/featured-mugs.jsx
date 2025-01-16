@@ -1,13 +1,9 @@
 import PropTypes from "prop-types";
-
+import TitleComponent from "./title";
 const FeaturedMugs = ({ title = "Featured Mugs" }) => {
   return (
     <>
-      <div className="sub-headline">
-        <div className="sub-headline-deco-line"></div>
-        <div className="sub-headline-label">{title}</div>
-        <div className="sub-headline-deco-line"></div>
-      </div>
+      <TitleComponent titleTxt={title} />
       <div className="featured-mugs w-[95%] lg:w-[65%] mx-auto mb-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
           <div className="product-card">
