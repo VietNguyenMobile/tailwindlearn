@@ -4,6 +4,7 @@ import FeaturedMugs from "./featured-mugs";
 import MoreProducts from "./more-products";
 import CoffeeMagazine from "./coffee-magazine";
 import SubscribeUs from "./subscribe-us";
+import ParallaxImage from "./parallax-image";
 
 const Main = () => {
   const data = [
@@ -29,6 +30,7 @@ const Main = () => {
       <MoreProducts title={data[1].title} />
       {/* <MoreProducts title={data[2].title} /> */}
       <CoffeeMagazine title={data[2].title} />
+      <ParallaxImage />
       <SubscribeUs />
     </main>
   );
