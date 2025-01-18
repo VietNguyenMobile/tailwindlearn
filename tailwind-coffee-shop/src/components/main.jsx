@@ -5,6 +5,7 @@ import MoreProducts from "./more-products";
 import CoffeeMagazine from "./coffee-magazine";
 import SubscribeUs from "./subscribe-us";
 import ParallaxImage from "./parallax-image";
+import BehindTheMugs from "./behind-the-mugs";
 
 const Main = () => {
   const data = [
@@ -31,6 +32,7 @@ const Main = () => {
       {/* <MoreProducts title={data[2].title} /> */}
       <CoffeeMagazine title={data[2].title} />
       <ParallaxImage />
+      <BehindTheMugs title={data[3].title} />
       <SubscribeUs />
     </main>
   );
