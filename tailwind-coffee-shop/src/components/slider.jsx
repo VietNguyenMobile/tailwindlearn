@@ -2,7 +2,7 @@
 
 const Slider = () => {
   return (
-    <div className="slider h-[530px] bg-slider-bg bg-cover bg-no-repeat bg-bottom">
+    <div className="slider h-[530px] bg-slider-bg bg-cover bg-no-repeat bg-bottom mb-24">
       <div className="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-40">
         <div className="mx-16 text-white text-center">
           <div className="uppercase mb-6">Best Place To Buy Coffee</div>

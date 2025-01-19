@@ -33,7 +33,7 @@ const Header = () => {
   // };
 
   return (
-    <header className="p-6 mx-auto">
+    <header className="p-6 mx-auto ">
       <nav className="flex flex-row justify-between items-center relative">
         <div className="logo basis-2/6 text-center text-xl font-semibold">
           CoffeeStyle.
