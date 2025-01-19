@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid yellow;
+    border-right: 50px solid blue;
+    border-bottom: 100px solid red;
+  }
+}
+
+/* ct: custom*/
+.ct-top-menu-item {
+  @apply py-1 
+  hover:text-gray-800 
+  relative 
+  after:lg:absolute 
+  after:lg:bottom-0 
+  after:lg:left-0 
+  after:lg:bg-coffee-200 
+  after:h-0.5 
+  hover:after:w-full 
+  after:lg:w-0 
+  after:lg:transition-all 
+  after:lg:duration-300 
+  after:lg:ease-in-out;
+}
+
+.ct-icon {
+  @apply w-5 h-5 inline-block;
+}
+
+.ct-badge-circle {
+  @apply inline-block 
+  text-xs
+  text-center
+  rounded-full
+  px-1.5;
+}
+
+.ct-top-menu-expanded {
+  @apply absolute 
+  top-10
+  z-50 
+  w-full 
+  text-center 
+  bg-red-200
+  animate-slideDown;
+}
+
+.ct-top-menu-active {
+  @apply text-gray-800;
+}
+
+.ct-button {
+  @apply text-center 
+  uppercase tracking-wider 
+  py-4 px-8 text-sm 
+  font-semibold cursor-pointer 
+  hover:bg-opacity-90;
+}
+
+.sub-headline {
+  @apply flex justify-center items-center mb-24;
+}
+
+.sub-headline-deco-line {
+  @apply w-8 h-px bg-gray-200;
+}
+
+.sub-headline-label {
+  @apply uppercase mx-4 
+  tracking-widest 
+  text-center
+  text-gray-500 font-medium text-xs;
+}
+
+.product-card-image {
+  @apply h-[400px] lg:h-[540px]
+  bg-cover bg-no-repeat  bg-center;
+}
+
+.product-card-image-more {
+  @apply h-[380px]
+  bg-cover bg-no-repeat  bg-center;
+}
+
+.product-card-title {
+  @apply text-center my-8;
+}
+
+.ct-parallax,
+.ct-no-parallax {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ct-parallax {
+  height: 40vh;
+  position: relative;
+  z-index: -1;
+}
+.ct-no-parallax {
+  height: auto;
+  z-index: 999;
+  background: white;
+}
+.ct-parallax-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* ... */
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
